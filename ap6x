@@ -1,0 +1,62 @@
+
+12x12mm, 0.65mm pitch, 0.5mm pad width
+
+-----
+
+NO Name Type Description
+
+1 GND - Ground connections
+2 WL_BT_ANT I/O RF I/O port
+3 GND - Ground connections
+4 NC - Floating (Don’t connected to ground)
+5 NC - Floating (Don’t connected to ground)
+6 BT_WAKE I HOST wake-up Bluetooth device
+7 BT_HOST_WAKE O Bluetooth device to wake-up HOST
+8 NC - Floating (Don’t connected to ground)
+9 VBAT P Main power voltage source input
+10 NC - Floating (Don’t connected to ground)
+11 NC - Floating (Don’t connected to ground)
+
+12 WL_REG_ON I Internal regulators power enable/disable
+13 WL_HOST_WAKE O WLAN to wake-up HOST
+14 SDIO_DATA_2 I/O SDIO data line 2
+15 SDIO_DATA_3 I/O SDIO data line 3
+16 SDIO_DATA_CMD I/O SDIO command line
+17 SDIO_DATA_CLK I/O SDIO CLK line
+18 SDIO_DATA_0 I/O SDIO data line 0
+19 SDIO_DATA_1 I/O SDIO data line 1
+20 GND - Ground connections
+21 VIN_LDO_OUT P Internal Buck voltage generation pin
+22 VDDIO P I/O Voltage supply input
+
+23 VIN_LDO P Internal Buck voltage generation pin
+24 LPO I External Low Power Clock input (32.768KHz)
+25 PCM_OUT I/O PCM Data output
+26 PCM_CLK I/O PCM Clock
+27 PCM_IN I/O PCM data input
+28 PCM_SYNC I/O PCM sync signal
+29 WL_VDD_TCXO P 1.7V to 3.3V supply for the TCXO driver
+30 TCXO_IN I Reference clock input
+31 GND - Ground connections
+32 NC - Floating (Don’t connected to ground)
+33 GND - Ground connections
+
+34 BT_RST_N I Low asserting reset for Bluetooth core
+35 NC - Floating (Don’t connected to ground)
+36 GND - Ground connections
+37 BT_XTAL_IN I Crystal input for BT
+38 BT_XTAL_OUT O Crystal output for BT
+39 NC - Floating (Don’t connected to ground)
+40 NC - Floating (Don’t connected to ground)
+41 UART_RTS_N O Bluetooth UART interface
+42 UART_TXD O Bluetooth UART interface
+43 UART_RXD I Bluetooth UART interface
+44 UART_CTS_N I Bluetooth UART interface
+
+45 TP1 (NC) - Floating (Don’t connected to ground)
+46 TP2 (NC) - Floating (Don’t connected to ground)
+47 TP3 (NC) - Floating (Don’t connected to ground)
+
+41-44: PI16-19
+14-19: PI05-09
+25-28: PB05-08,13
